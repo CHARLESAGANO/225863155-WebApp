@@ -8,33 +8,51 @@
 
 <body>
 <!-- Part 1: Links -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
 <!-- Part 2: Images -->
-<img src="Agano, charles Pic.jpg" alt="Picture ni Charles Agano" height="300" width="300">
+<figure>
+    <img src="Agano, charles Pic.jpg" alt="Picture ni Charles Agano" height="300" width="300">
+    <figcaption>Agano, Charles First Selfie in Baguio</figcaption>
+</figure>
+
 <!-- Part 3: Forms -->
 <form>
-    <label for="name">Name:</label>
-    <input type="text"  name="name" id="name"><br><br>
+    <label 
+    for="name">Name:</label>
+    <input type="text" name="name" id="name"><br><br>
     <label for="password">Password:</label>
     <input type="password" name="password" id="password"><br><br>
     <label for="gender">Gender:</label><br>
     <input type="radio" name="gender" id="male" value="male">
-<label for="male">Male</label><br>
-<input type="radio" name="gender" id="female" value="female">
-<label for="female">Female</label><br><br>
-
-<label for="terms">I accept the terms and condition</label>
-<input type="checkbox" name="terms" id="terms"><br><br>
-<input type="submit" value="Submit">
+    <label for="male">Male</label><br>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label><br><br>
+    <label for="terms">I accept the terms and condition</label>
+    <input type="checkbox" name="terms" id="terms"><br><br>
+    <input type="submit" value="Submit">
 
 </form>
-<!-- Part 4: Table -->
+<!-- Part 4: Audio and Video -->
+<video width="300" height="300" controls>
+    <source src="Getting to Know you Better- CIT20.mp4" type="video/mp4">
+    Video not available
+</video>
+
+<audio controls> 
+    <source src="Hatid (Acoustic) _ The Juans.mp3" type="audio/mpeg">
+    Audio not available
+</audio>
+    <footer>
+<!-- Part 5: Table -->
 <table>
     <thead>
         <tr>
@@ -56,5 +74,7 @@
         </tr>
     </tbody>
 </table>
+</footer>
+
 </body>
 </html>
