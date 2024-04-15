@@ -90,6 +90,14 @@ header {
   margin-left: 20px;
 }
 
+#nav-bar {
+  background-color: silver;
+  width: 900px;
+  height: 20px;
+  margin: 20px 0;
+  border-radius: 25px;
+}
+
 @media (max-width: 650px) {
   .logo > img {
     margin: 0 auto;
