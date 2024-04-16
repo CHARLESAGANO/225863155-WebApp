@@ -52,6 +52,13 @@ html {
       margin: 0;
     }
   }
+  blockquote {
+    font-size: 2rem;
+    font-style: italic;
+    font-family:"Livre Baskerville",serif;
+    text-align:center;
+    margin-bottom:5rem;
+  }
   
   img {
     max-width: 100%;
@@ -90,6 +97,12 @@ html {
   
   li {
     margin: 16px 0;
+  }
+  .quote{
+    background-color: lightblue;
+    color: black;
+    padding: 10rem;
+    text-align: center;
   }
   
   blockquote {
